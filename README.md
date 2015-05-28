@@ -7,25 +7,19 @@ designed to accompany a full textbook on mathematical methods.
 
 ### Requirements
 
-  * LaTeX
+  * GNU Texinfo
+  * TeX Live
   * GNU Make
 
 ### Building
 
-    $ make
-
-Or:
-
-    $ make pdf
-
-which is the default `make` task.
-
-Or:
-
-    $ pdflatex main.tex
-
-Run `pdflatex` twice if any changes to chapters or sections have taken place for
-table of contents to be updated. `make` does this for you.
+    $ make                 # generates a PDF; preferred
+    $ make pdf             # generates a PDF
+    $ make dvi             # generates a DVI
+    $ texi2dvi -p main.tex # generates a PDF
+    $ texi2dvi main.tex    # generates a DVI
+    $ pdflatex main.tex    # generates a PDF; run twice to update TOC
+    $ make clean           # delete all generated files
 
 ## Copyright
 
