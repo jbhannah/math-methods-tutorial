@@ -13,12 +13,17 @@ designed to accompany a full textbook on mathematical methods.
 
 ### Building
 
+Run one of the following commands:
+
     $ make                 # generates a PDF; preferred
     $ make pdf             # generates a PDF
     $ make dvi             # generates a DVI
     $ texi2dvi -p main.tex # generates a PDF
     $ texi2dvi main.tex    # generates a DVI
     $ pdflatex main.tex    # generates a PDF; run twice to update TOC
+
+#### Cleanup
+
     $ make clean           # delete all generated files
 
 ## Copyright
