@@ -1,6 +1,6 @@
 srcdir = src
 
-all: pdf
+all: clean pdf
 
 clean:
 	rm -f main.bbl main.blg main.dvi main.log main.out.ps main.pdf main.toc *.aux
