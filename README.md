@@ -33,4 +33,7 @@ and/or modify this document under the terms of the GNU Free Documentation
 License, Version 1.3 or any later version published by the Free Software
 Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover
 Texts. A copy of the license is included in the file named `LICENSE.txt` and the
-section entitled "GNU Free Documentation License".
+section entitled "GNU Free Documentation License". Permission is explicitly
+granted by the original author to redistribute modified versions of this
+document under the same title as the original, as provided for in section 4(A)
+of the GNU FDL.
